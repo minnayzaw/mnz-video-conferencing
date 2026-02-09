@@ -1,1 +1,1 @@
-# mnz-video-conferencing
+# mnz-video-conferencing only for coding
