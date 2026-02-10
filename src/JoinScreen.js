@@ -1,6 +1,7 @@
 import "./App.css";
 import React, { useState } from "react";
 import md5 from "md5";
+import {hostId} from './config/Constants';
 
 function JoinScreen({ getMeetingAndToken, userNameHandler, userName, userIdHandler, userId, authToken }) {
   const [meetingId, setMeetingId] = useState(null);
@@ -39,7 +40,7 @@ function JoinScreen({ getMeetingAndToken, userNameHandler, userName, userIdHandl
             userIdHandler(e.target.value);
           }}
         />
-        <button className="btn btn-primary btn-rounded join-button" onClick={onClick} disabled={userId && md5(userId) === '7f47bfd50aee12bec17dbcb87d5bd50f' ? "" : "disabled"}><i className="fa fa-video-camera camera"></i>&nbsp;Login to create a meeting</button>
+        <button className="btn btn-primary btn-rounded join-button" onClick={onClick} disabled={userId && md5(userId) === hostId ? "" : "disabled"}><i className="fa fa-video-camera camera"></i>&nbsp;Login to create a meeting</button>
       </div>
     </div>
   );
