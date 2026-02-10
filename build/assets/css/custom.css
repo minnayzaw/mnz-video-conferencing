@@ -1,0 +1,129 @@
+.video-join-call-div{
+	width: 100%;
+	margin-top: 20vh !important;
+	margin: 0 auto;
+	padding: 0;
+}
+.sign-up-div{
+	width: 100%;
+	margin-top: 15vh !important;
+	margin: 0 auto;
+	padding: 0;
+}
+.video-join-call-div .account-box, .sign-up-div .account-box{
+	width: 40%;
+	margin: 0 auto;
+	padding: 30px 50px;
+	margin-bottom: 5vh !important;
+	text-align: center;
+}
+.join-button{
+	width: 50%;
+}
+.video-join-call-button{
+	margin-bottom: 3vh;
+}
+.video-container{
+	width: 48% !important;
+	float: left;
+	margin: 1% 2% 0 auto;
+	padding: 0;
+}
+
+.video-join-call-controls{
+	clear: both !important;
+}
+.end-call-icon{
+	color: #ff0000;
+}
+.meeting-text{
+	color: #009efb;
+}
+.video-join-call-button-div{
+	margin-top: 3vh;
+	text-align: center;
+}
+.chat-footer{
+	background-color: #fafafa !important;
+}
+.no-image-div{
+	height: 53vh;
+	background-image: url(../../assets/img/user.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	text-align: center;
+}
+.no-image-div h3{
+	margin-top: 3%;
+	color: #009efb;
+	font-weight: 700;
+}
+.bi{
+	color: #ff0000 !important;
+	font-size: 20px;
+}
+#chat-view-div{
+	width: 20%;
+	margin: o auto;
+	padding: 0;
+	float: left;
+	background-color: #fff;
+	border: 1px solid #eaeaea;
+	color: #555;
+	display: block;
+	min-height: 100vh;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.message-area{
+	width: 20%;
+	position: fixed;
+	bottom: 0;       
+	right: 0;  
+}
+.chat-content{
+	width: 100% !important;
+}
+.group-chat-box-title{
+	width: 100%;
+	text-align: center;
+}
+.call-icons{
+	width: 100% !important;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.google-button-div{
+	margin-top: 5vh !important;
+}
+#sign-in-button-div{
+	width: 100%;
+	margin:0 auto;
+	padding:0;
+}
+#sign-in-button-div .sign-in-button{
+ width:48%;
+ margin-right: 2%;
+ float: left;
+}
+#sign-in-button-div > div{
+	width:48% !important;
+	float: left;
+}
+.clr{
+	clear: both !important;
+}
+.header-left{
+	width: 90% !important;
+	float: left !important;
+}
+.header-right{
+	width: 10% !important;
+	float: left !important;
+}
+.header-right button{
+	border: 1px solid #fff !important;
+	height: 4vh !important;
+	margin-top: 10px !important;
+	line-height: 10px !important;
+}
